@@ -4,7 +4,6 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: print greeting
       - run: echo "🎉Hello venki"
       - run: echo "🐧 Good bye venki"
      
