@@ -1,11 +1,10 @@
-name:simple_workflow
-on:workflow_dispatch
+name: first workflow
+on: workflow_dispatch
 jobs:
-  first-job:
-  runs-on:ubuntu-latest
-  steps:
-    -name:print greeting
-    run:echo "hello venki"
-    -name:print goodbye
-    run: echo "good bye venki"
-  
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+      - run: echo "🎉Hello venki"
+      - run: echo "🐧 Good bye venki"
+     
